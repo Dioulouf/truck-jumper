@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Truck JUMPER</title>
+    <link rel="stylesheet" href="sources/style/reset.css">
+    <link rel="stylesheet" href="sources/style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="sources/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="sources/favicon/favicon-16x16.png">
+</head>
+
+<body>
+    <div class="scene">
+        <h1>Truck JUMPER</h1>
+        <!-- h2 inner html with javascript -->
+        <h2></h2>
+        <div class="informations">
+            <div class="key-truck">
+                <div class="key-right"></div>
+            </div>
+            <p class="p-start">Start and accelerate</p>
+            <div class="key-truck">
+                <div class="key-up"></div>
+            </div>
+            <p class="p-jump">jump to avoid the bombs</p>
+            <div class="key-space">
+                <p>space</p>
+            </div>
+            <p class="p-horn">horn</p>
+        </div>
+        <p class="lose">Your are a loser, press enter to restart</p>
+        <!-- truck -->
+        <div class="truck-container">
+            <div class="trailer">
+                <div class="straight-line1"></div>
+                <div class="straight-line2"></div>
+                <div class="straight-line3"></div>
+                <div class="straight-line4"></div>
+                <div class="straight-line5"></div>
+                <div class="straight-line6"></div>
+                <div class="trailer-shadow"></div>
+            </div>
+            <img class="logo" src="sources/images/logo.png" alt="">
+            <div class="tractor">
+                <div class="window"></div>
+                <div class="light-right"></div>
+                <div class="light-left"></div>
+                <div class="tractor-shadow1"></div>
+                <div class="tractor-shadow2"></div>
+            </div>
+            <div class="tractor-bottom"></div>
+            <div class="left-wheel-background wheel">
+                <div class="wheel-rim-background wheel-rim"></div>
+                <div class="wheel-rim-straight wheel-rim-straight-background"></div>
+            </div>
+            <div class="shadow-wheel-left-background"></div>
+            <div class="left-wheel-foreground wheel">
+                <div class="wheel-rim-foreground wheel-rim"></div>
+                <div class="wheel-rim-straight wheel-rim-straight-foreground"></div>
+            </div>
+            <div class="shadow-wheel-left-foreground"></div>
+            <div class="right-wheel-background wheel">
+                <div class="wheel-rim-background wheel-rim"></div>
+                <div class="wheel-rim-straight wheel-rim-straight-background"></div>
+            </div>
+            <div class="shadow-wheel-right-background"></div>
+
+            <div class="shadow-wheel-right-foreground"></div>
+            <div class="right-wheel-foreground wheel">
+                <div class="wheel-rim-foreground wheel-rim"></div>
+                <div class="wheel-rim-straight wheel-rim-straight-foreground"></div>
+            </div>
+            <!-- poussières -->
+            <div class="dust-wheel-foreground-left">
+                <div class="dust-fl-1 dust"></div>
+                <div class="dust-fl-2 dust"></div>
+                <div class="dust-fl-3 dust"></div>
+            </div>
+            <div class="dust-wheel-foreground-right">
+                <div class="dust-fr-1 dust"></div>
+                <div class="dust-fr-2 dust"></div>
+                <div class="dust-fr-3 dust"></div>
+            </div>
+            <div class="dust-wheel-background-left">
+                <div class="dust-bl-1 dust"></div>
+                <div class="dust-bl-2 dust"></div>
+                <div class="dust-bl-3 dust"></div>
+            </div>
+            <div class="dust-wheel-background-right">
+                <div class="dust-br-1 dust"></div>
+                <div class="dust-br-2 dust"></div>
+                <div class="dust-br-3 dust"></div>
+            </div>
+            <!-- wind -->
+            <div class="wind wind-1"></div>
+            <div class="wind wind-2"></div>
+            <div class="wind wind-3"></div>
+            <div class="wind wind-4"></div>
+        </div>
+        <!-- truck end -->
+        <!-- road -->
+        <div class="road"></div>
+        <!-- clouds -->
+        <div class="cloud cloud-1">
+            <div class="circle-cloud1"></div>
+            <div class="circle-cloud2"></div>
+        </div>
+        <div class="cloud cloud-2">
+            <div class="circle-cloud1"></div>
+            <div class="circle-cloud2"></div>
+        </div>
+        <div class="cloud cloud-3">
+            <div class="circle-cloud1"></div>
+            <div class="circle-cloud2"></div>
+        </div>
+        <div class="cloud cloud-4">
+            <div class="circle-cloud1"></div>
+            <div class="circle-cloud2"></div>
+        </div>
+        <div class="cloud cloud-5">
+            <div class="circle-cloud1"></div>
+            <div class="circle-cloud2"></div>
+        </div>
+        <div class="cloud cloud-6">
+            <div class="circle-cloud1"></div>
+            <div class="circle-cloud2"></div>
+        </div>
+        <p class="alert-dangerous">!</p>
+        <div class="bomb">
+            <div class="fuze">
+                <div class="star"></div>
+                <div class="star"></div>
+            </div>
+        </div>
+        <img class="explosion" src="sources/images/explosion.png" alt="">
+    </div>
+    <!-- audio -->
+    <audio class="klaxon" src="sources/sons/klaxon.mp3"></audio>
+    <audio class="musique" src="sources/sons/generique-cest-pas-sorcier.mp3"></audio>
+    <audio class="explosion-mp3" src="sources/sons/explosion.mp3"></audio>
+
+    <script src="sources/script/app.js"></script>
+</body>
+
+</html>
